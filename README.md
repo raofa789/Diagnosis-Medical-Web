@@ -1,16 +1,64 @@
-# React + Vite
+# Diagnosis – Medical Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Diagnosis** هو تطبيق ويب طبي حديث يهدف إلى **تسهيل عملية التشخيص الطبي** وتحليل البيانات الصحية بطريقة منظمة وسهلة الاستخدام. يوفر التطبيق واجهة تفاعلية تساعد المستخدمين على إدخال المعلومات الصحية وعرض النتائج بشكل واضح وفعّال.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 أهداف المشروع
+- تبسيط عملية إدخال البيانات الطبية  
+- عرض المعلومات الصحية بشكل منظم وسهل القراءة  
+- تحسين تجربة المستخدم في التطبيقات الطبية  
+- دعم اتخاذ القرار بشكل أسرع وأكثر كفاءة  
+- تطبيق مفاهيم **Frontend Development** الحديثة باستخدام React.js
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 التقنيات المستخدمة
+- **React.js** – لبناء واجهة أمامية تفاعلية وSPA  
+- **JavaScript (ES6+)** – إدارة منطق التطبيق  
+- **HTML5 / CSS3** – تصميم واجهة المستخدم  
+- **Tailwind CSS** – لتصميم واجهات مرنة وسريعة  
+- **Vite** – أداة تطوير وبناء المشروع  
+- **Git & GitHub** – لإدارة الإصدارات وتتبع التغييرات
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 بنية المشروع
+frontend/
+├── src/ # ملفات React components
+├── public/ # ملفات عامة مثل index.html
+├── package.json # إعدادات المشروع والتبعيات
+├── vite.config.js # إعدادات Vite
+└── tailwind.config.js # إعدادات Tailwind CSS
+
+yaml
+نسخ الكود
+
+---
+
+## ⚡ مميزات التطبيق
+- **واجهة تفاعلية** وسهلة الاستخدام  
+- **تحليل بيانات صحيّة** وعرض النتائج بطريقة منظمة  
+- **SPA (Single Page Application)** لتحديث الواجهة دون إعادة تحميل  
+- **تصميم متجاوب** يدعم الأجهزة المختلفة  
+
+---
+
+## 🚀 طريقة التشغيل محليًا
+1. استنساخ المشروع:
+```bash
+git clone https://github.com/raofa789/Diagnosis-Medical-Web.git
+cd Diagnosis-Medical-Web/frontend
+تثبيت التبعيات:
+
+bash
+نسخ الكود
+npm install
+تشغيل المشروع:
+
+bash
+نسخ الكود
+npm run dev
+
+افتح المتصفح على الرابط الذي يظهر في Terminal 
+( http://localhost:5173 )
